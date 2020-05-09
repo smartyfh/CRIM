@@ -28,9 +28,9 @@ int main()
 	string model = "LT"; // IC or LT
 	int k = 30;
 	
-	path[0] = "WikiVote/";
-	nodenum[0] = 889;
-	c[0] = 8;
+	path[0] = "Epinions/";
+	nodenum[0] = 75888;
+	c[0] = 20;
 
 	// for LT model 
 	Imp_CRIM(path[0], nodenum[0], k, 100, c[0], model);
